@@ -3,13 +3,20 @@
 #cvSection("Projects & Associations")
 
 #cvEntry(
-  title: [Volunteer Data Analyst],
-  society: [ABC Nonprofit Organization],
-  date: [2019 - Present],
-  location: [New York, NY],
+  title: [Full Stack Engineer],
+  society: [Optum (UHG)],
+  date: [2021 - Present],
+  location: [Gurugram, India],
   description: list(
-    [Analyze donor and fundraising data to identify trends and opportunities for growth],
-    [Create data visualizations and dashboards to communicate insights to the board of directors],
-    [Collaborate with other volunteers to develop and implement data-driven strategies]
+    [#strong([One Pass]): Developed a comprehensive service platform offering membership benefits, gym search functionalities, and vendor shopping options.],
+    [#strong([Admin Portal]): Designed and implemented an admin portal for managing sponsors and clients of One Pass, featuring highly customizable configurations.],
+    [#strong([Renew-Active]): Mobile App: Developed a React Native cross-platform mobile application with interesting UI features like a map view for gym searches.]
+  )
+)
+
+#cvEntry(
+  society: [Personal Projects],
+  description: list(
+    [#strong([Torrent Downloader]): Created a browser-based torrent downloader eliminating the need for backend support and additional installations.]
   )
 )
