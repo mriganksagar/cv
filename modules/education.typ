@@ -10,7 +10,7 @@ location: [Delhi, India],
 logo: "../src/logos/dtu-logo.png",
 description: list(
 [CGPA: 8.0],
-[Lab Internship: Simulated networks and its load to develop optimised routing for Software Defined Networks],
+[Lab Internship: Simulated networks and its load to study and optimise routing for Software Defined Networks],
 [Major Project: Software development approach using ontologies to easily document and maintain the software system],
 )
 )
