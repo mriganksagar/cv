@@ -3,14 +3,14 @@
 #cvSection("Education")
 
 #cvEntry(
-title: [Bachelor of Computer Engineering],
+title: [B.Tech in Computer Engineering],
 society: [Delhi Technological University],
 date: [2017 - 2021],
 location: [Delhi, India],
 logo: "../src/logos/dtu-logo.png",
 description: list(
 [CGPA: 8.0],
-[Lab Internship: Software Defined Networks],
-[Major Project: Effective approach to create documentation for Software Systems during their development.],
+[Lab Internship: Simulated networks and its load to develop optimised routing for Software Defined Networks],
+[Major Project: Software development approach using ontologies to easily document and maintain the software system],
 )
 )
