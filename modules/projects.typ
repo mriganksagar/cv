@@ -8,9 +8,8 @@
   date: [2021 - Present],
   location: [Gurugram, India],
   description: list(
-    [#strong([One Pass]): Developed a comprehensive service platform offering membership benefits, gym search functionalities, and vendor shopping options.],
-    [#strong([Admin Portal]): Developed an admin portal for managing sponsors and clients of One Pass, featuring highly customizable configurations.],
-    [#strong([Renew-Active]): Mobile App: Developed a React Native cross-platform mobile application with interesting UI features like a map view for gym searches.]
+    [#strong([One Pass]): Engineered a comprehensive service platform offering membership benefits, gym search functionalities, and vendor shopping options. Developed Microservices using Play in Scala for the core logic, and the middleware services to provide APIs to Frontend Application. Developed responsive and interactive UIs using Next.js],
+    [#strong([Admin Portal]): An admin portal for managing sponsors and clients of One Pass, featuring highly customizable configurations. Developed Microservices using Springboot in Java to serve the APIs, and UIs using Nextjs and Reactjs]
   )
 )
 
