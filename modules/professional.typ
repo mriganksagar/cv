@@ -9,9 +9,10 @@
     date: [2021 - Present],
     location: [Gurugram, India],
     description: list(
-      [#strong([Project Development]): Play a key role as Full stack developer in developing and maintaining projects focused on fitness solutions and their operations, positively impacting millions of users.],
-      [#strong([Backend Development]): Developed backend microservices to serve RESTful and GraphQL APIs using technologies such as Spring (Java), Play Framework with Scala, and Nest.js.],
-      [#strong([Frontend Development]): Developed web and mobile applications using React for the web frontend and React Native for mobile apps.],
+      [#strong([Project Development]): Key contributor in the development and maintenance of projects focused on fitness solutions positively impacting millions of users. These projects positively impacted millions of users and significantly improved the efficiency of operations teams by atleast 20%.],
+      [#strong([Backend Development]): Engineered backend microservices for RESTful and GraphQL APIs using
+Spring (Java), Play Framework (Scala), and Nest.js.],
+      [#strong([Frontend Development]): Built responsive and interactive web and mobile applications using React.js and React Native.],
     ),
     tags: ("Scala", "Java", "JavaScript", "TypeScript", "Spring", "Play", "React", "Next.js")
 )
