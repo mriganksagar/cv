@@ -10,12 +10,6 @@
   phone: "+91 9069168030",
   email: "mriganksagar@gmail.com",
   linkedin: "mrigank-sagar",
-  //custom-1: (icon: "", text: "example", link: "https://example.com"),
-  //gitlab: "mintyfrankie",
-  //homepage: "jd.me.org",
-  //orcid: "0000-0000-0000-0000",
-  //researchgate: "John-Doe",
-  //extraInfo: "",
 )
 
 /* Language-specific */
