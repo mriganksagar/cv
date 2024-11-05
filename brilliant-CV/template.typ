@@ -159,7 +159,7 @@
   )
 }
 
-#let publicationStyle(str) = { text(str) }
+// #let publicationStyle(str) = { set heading(numbering: none) }
 
 #let footerStyle(str) = { text(size: 8pt, fill: rgb("#999999"), smallcaps(str)) }
 
@@ -377,8 +377,8 @@
 }
 
 #let cvPublication(bibPath: "", keyList: list(), refStyle: "apa", refFull: true) = {
-  show bibliography: it => publicationStyle(it)
-  bibliography(bibPath, title: none, style: refStyle, full: refFull)
+  // show bibliography: it => publicationStyle(it)
+  bibliography(bibPath, title: none, style: refStyle, full: refFull  )
 }
 
 #let cvFooter() = {
@@ -433,7 +433,7 @@
   set align(left)
   set page(
     paper: "a4",
-    margin: (left: 1.4cm, right: 1.4cm, top: .8cm, bottom: .4cm),
+    margin: (left: 1.4cm, right: 1.4cm, top: .8cm, bottom: .8cm),
   )
   doc
 }

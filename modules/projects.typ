@@ -5,10 +5,10 @@
 #cvEntry(
   title: "Torrent Downloader",
   society: [Designer/Developer],
-  date: [2023 - Present],
+  date: [2023 - 2024],
   description: list(
-    [Developed a torrent client as a functional static site, enabling torrent downloads directly through the browser without backend processing or additional installations.],
-    [Leveraged React.js, Vite Framework to create a seamless and efficient application with Webtorrent.js to power the Torrent client.],
-    [Utilised ShadCn and Tanstack UI libraries with Tailwind to craft a highly responsive and visually appealing user interface.]
+    [Developed a torrent client as a static site to directly download torrents only using the browser without the need for backend processing, downloaders or additional installations.],
+    [Leveraged the React library and Vite build tool and server to create a seamless application with Webtorrent.js to power the torrent client.],
+    [Utilised ShadCn and Tanstack UI libraries with Tailwind to craft a high performing, responsive and visually appealing user interface.]
   )
 )

@@ -10,7 +10,19 @@ location: [Delhi, India],
 logo: "../src/logos/dtu-logo.png",
 description: list(
 [CGPA: 8.0],
-[Lab Internship: Simulated networks and its load to develop optimised routing for Software Defined Networks],
-[Major Project: Software development approach using ontologies to easily document and maintain the software system],
+[Relevant Coursework: Data Structures, Algorithms, Object Oriented Programming, Database Management Systems, Operating Systems Design, Computer Networks, Compiler Design, Distributed Systems.],
+[Lab Internship: Simulated computer networks with Mininet and studied its load with varying network congestion to develop optimised routing tables for Software Defined Networks.],
+[Major Project: Published a proof of concept to develop softwares using ontologies as a means to document entity relationships and easily document and hence maintain the software system.],
 )
+)
+
+#cvEntry(
+  title: [12th Grade Senior Secondary, (Science)],
+  society: [Rajkiya Pratibha Vikas Vidyalaya (C.B.S.E)],
+  date: [2016-2017],
+  location: [Delhi, India],
+  logo: "../src/logos/cbselogo.png", 
+  description: list(
+    [Percentage: 92.2 %], 
+  ) 
 )

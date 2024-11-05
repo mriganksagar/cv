@@ -15,8 +15,8 @@
 /* Language-specific */
 // Add your own languages while the keys must match the varLanguage variable
 #let headerQuoteInternational = (
-  "": [Experienced Full-Stack Engineer looking for a full time job],
-  "en": [Experienced Full-Stack Engineer looking for a full time job],
+  "": [Experienced Full-Stack Software Engineer.],
+  "en": [Experienced Full-Stack Engineer.],
 )
 
 #let cvFooterInternational = (

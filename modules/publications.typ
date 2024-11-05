@@ -6,5 +6,5 @@
   bibPath: "../src/publications.bib",
   keyList: (
     "Springer2021"),
-  refStyle: "apa"  
+  refStyle: "mla"  
 )
