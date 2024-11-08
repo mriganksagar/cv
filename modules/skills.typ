@@ -34,5 +34,5 @@
 
 #cvSkill(
   type: [Languages],
-  info: [English #hBar() Hindi]
+  info: [English #hBar() Hindi #hBar() Sanskrit]
 )
