@@ -338,6 +338,7 @@
   )
   entryDescriptionStyle(description)
   entryTagListStyle(tags)
+  v(4pt)
 }
 
 #let cvSkill(type: "Type", info: "Info") = {

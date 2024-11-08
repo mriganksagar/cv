@@ -11,8 +11,8 @@ logo: "../src/logos/dtu-logo.png",
 description: list(
 [CGPA: 8.0],
 [Relevant Coursework: Data Structures, Algorithms, Object Oriented Programming, Database Management Systems, Operating Systems Design, Computer Networks, Compiler Design, Distributed Systems.],
-[Lab Internship: Simulated computer networks with Mininet and studied its load with varying network congestion to develop optimised routing tables for Software Defined Networks.],
-[Major Project: Published a proof of concept to develop softwares using ontologies as a means to document entity relationships and easily document and hence maintain the software system.],
+[Lab Internship: Simulated computer networks with Mininet and studied its load with varying network congestion to develop optimised routing tables for Software Defined Networks (SDN).],
+[Major Project: Published a proof of concept to develop softwares using ontologies as a means to document entity relationships and maintain the software system.],
 )
 )
 
@@ -23,6 +23,6 @@ description: list(
   location: [Delhi, India],
   logo: "../src/logos/cbselogo.png", 
   description: list(
-    [Percentage: 92.2 %], 
+    [Achieved 92.2 percent marks], 
   ) 
 )

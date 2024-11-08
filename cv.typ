@@ -9,5 +9,6 @@
   #autoImport("publications")
   #pagebreak()
   #autoImport("awards_achievements")
+  #autoImport("volunteering")
   #autoImport("skills")
 #cvFooter()
