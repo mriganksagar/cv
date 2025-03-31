@@ -139,7 +139,7 @@
 }
 
 #let skillTypeStyle(str) = {
-  align(left, text(size: 10pt, weight: "bold", str))
+  align(right, text(size: 10pt, weight: "bold", str))
 }
 
 #let skillInfoStyle(str) = { text(str) }
