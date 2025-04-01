@@ -3,11 +3,11 @@
 #set par(justify: true)
 
 #cvHeader(hasPhoto: false, align: left)
-  #autoImport("professional")
   #autoImport("education")
+  #autoImport("professional")
+  #autoImport("publications")
   #autoImport("projects")
   // #pagebreak()
-  #autoImport("publications")
   #autoImport("awards_achievements")
   #autoImport("volunteering")
   #autoImport("skills")

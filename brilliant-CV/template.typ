@@ -117,10 +117,10 @@
 }
 
 #let entryDescriptionStyle(str) = {
-  text(fill: regularColors.lightgray, {
+  pad(left: 5pt, text(fill: regularColors.lightgray, {
     v(beforeEntryDescriptionSkip)
     str
-  })
+  }))
 }
 
 #let entryTagStyle(str) = { align(center, text(size: 8pt, weight: "regular", str)) }
@@ -159,7 +159,7 @@
   )
 }
 
-// #let publicationStyle(str) = { set heading(numbering: none) }
+#let publicationStyle(str) = { text(str) }
 
 #let footerStyle(str) = { text(size: 8pt, fill: rgb("#999999"), smallcaps(str)) }
 
@@ -272,7 +272,7 @@
   }
 }
 
-#let cvSection(title, highlighted: true, letters: 3) = {
+#let cvSection(title, highlighted: true, letters: 3, split: false) = {
   let highlightText = title.slice(0, letters)
   let normalText = title.slice(letters)
 
@@ -281,8 +281,13 @@
     sectionTitleStyle(title, color: accentColor)
   } else {
     if highlighted {
-      sectionTitleStyle(highlightText, color: accentColor)
-      sectionTitleStyle(normalText, color: black)
+      if split {
+        sectionTitleStyle(highlightText, color: accentColor)
+        sectionTitleStyle(normalText, color: black)
+      }
+      else {
+        sectionTitleStyle(title, color: accentColor)
+      }
     } else {
       sectionTitleStyle(title, color: black)
     }
@@ -375,9 +380,13 @@
   v(-6pt)
 }
 
-#let cvPublication(bibPath: "", keyList: list(), refStyle: "apa", refFull: true) = {
-  // show bibliography: it => publicationStyle(it)
+#let cvPublication_old(bibPath: "", keyList: list(), refStyle: "apa", refFull: true) = {
+  show bibliography: it => publicationStyle(it)
   bibliography(bibPath, title: none, style: refStyle, full: refFull  )
+}
+
+#let cvPublication_yml(bibPath: "", keyList: list(), refStyle: "apa", refFull: true) = {
+  bibliography(bibPath, title: auto, style: refStyle, full: refFull)
 }
 
 #let cvFooter() = {

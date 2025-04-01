@@ -1,0 +1,11 @@
+ontology:
+  type: Entry
+  title: Ontology Driven Software Development for Better Understanding and Maintenance of Software System
+  author:
+    - name: Mrigank Sagar
+    - name: Dr.Rohit Beniwal
+    - name: Kushal Kumar
+    - name: Kumar Abhijeet
+  publisher: Springer
+  date: 2021
+  page-range: 73-81

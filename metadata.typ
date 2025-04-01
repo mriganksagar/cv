@@ -15,8 +15,7 @@
 /* Language-specific */
 // Add your own languages while the keys must match the varLanguage variable
 #let headerQuoteInternational = (
-  "": [Software Engineer.],
-  "en": [Software Engineer.],
+  "": [Software engineer and a linux enthusiast.],
 )
 
 #let cvFooterInternational = (
@@ -41,7 +40,7 @@
 )
 
 /* Layout Setting */
-#let awesomeColor = "darkblue" // Optional: skyblue, red, nephritis, concrete, darknight
+#let awesomeColor = "darknight" // Optional: skyblue, red, nephritis, concrete, darknight
 
 #let profilePhoto = "" // Leave blank if profil photo is not needed
 
