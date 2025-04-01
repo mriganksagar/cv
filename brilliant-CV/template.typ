@@ -25,13 +25,13 @@
   #h(5pt) | #h(5pt)
 ]
 
-#let autoImport(file) = {
+#let autoImport(file) = block(breakable: false, {
   if varLanguage == "" {
     include { "../modules/" + file + ".typ" }
   } else {
     include { "../modules_" + varLanguage + "/" + file + ".typ" }
   }
-}
+})
 
 #let languageSwitch(dict) = {
   for (k, v) in dict {
@@ -56,10 +56,12 @@
 #let awesomeColors = (
   darkblue: rgb("#063970"),
   skyblue: rgb("#0395DE"),
+  blue: rgb("#27548A"),
   red: rgb("#DC3522"),
   nephritis: rgb("#27AE60"),
   concrete: rgb("#95A5A6"),
   darknight: rgb("#131A28"),
+  darkteal: rgb("#006A71"),
 )
 
 #let regularColors = (
@@ -139,7 +141,7 @@
 }
 
 #let skillTypeStyle(str) = {
-  align(right, text(size: 10pt, weight: "bold", str))
+  align(right, text(size: 10pt, weight: 600, str))
 }
 
 #let skillInfoStyle(str) = { text(str) }
@@ -148,7 +150,7 @@
   align(right, text(str))
 }
 
-#let honorTitleStyle(str) = { text(weight: "bold", str) }
+#let honorTitleStyle(str) = { text(weight: 600, str) }
 
 #let honorIssuerStyle(str) = { text(str) }
 
@@ -358,7 +360,7 @@
 
 #let cvHonor(date: "1990", title: "Title", issuer: "", url: "", location: "") = {
   table(
-    columns: (16%, 1fr, 15%),
+    columns: (22%, 1fr, 15%),
     inset: 0pt,
     column-gutter: 10pt,
     align: horizon,

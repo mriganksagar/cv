@@ -3,19 +3,10 @@
 #cvSection("Certificates")
 
 #cvHonor(
-  date: [2022],
-  title: [AWS Certified Security],
-  issuer: [Amazon Web Services (AWS)],
+  date: [Mar 30, 2024],
+  title: [Functional Program Design in Scala],
+  issuer: [Epfl, Coursera],
+  url: "https://coursera.org/verify/FV47O6TXVX1F"
 )
 
-#cvHonor(
-  date: [2017],
-  title: [Applied Data Science with Python],
-  issuer: [Coursera]
-)
-
-#cvHonor(
-  date: [],
-  title: [SQL Fundamentals Track],
-  issuer: [Datacamp]
-)
+#v(5pt)

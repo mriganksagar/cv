@@ -12,7 +12,7 @@
     - *CGPA*: 8.0 out of 10.0.
     - *Relevant Coursework*: Distributed systems, Information & network security, Big-data analytics, Compiler design, Theory of computation, Artificial intelligence.
     - *Lab Internship*: Simulated computer networks with Mininet to study routing under various topologies and loads and create optimised routing tables for Software Defined Networks(SDN).
-    - *Bachelor thesis*: Proposed an ontology-driven approach to document software systems, improving maintainability.
+    - *Bachelor thesis*: Proposed an ontology-driven approach to document software systems, improving maintainability; Published in conference.
   ]  
 )
 

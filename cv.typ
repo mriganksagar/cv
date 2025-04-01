@@ -7,10 +7,8 @@
   #autoImport("professional")
   #autoImport("publications")
   #autoImport("projects")
-  // #pagebreak()
+  #autoImport("certificates")
+  #autoImport("skills")
   #autoImport("awards_achievements")
   #autoImport("volunteering")
-  #block(breakable:false, autoImport("skills"))
 #cvFooter()
-
-  // #autoImport("certificates")

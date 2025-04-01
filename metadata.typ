@@ -40,7 +40,7 @@
 )
 
 /* Layout Setting */
-#let awesomeColor = "darknight" // Optional: skyblue, red, nephritis, concrete, darknight
+#let awesomeColor = "blue" // Optional: skyblue, red, nephritis, concrete, darknight
 
 #let profilePhoto = "" // Leave blank if profil photo is not needed
 
