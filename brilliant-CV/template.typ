@@ -173,7 +173,7 @@
 
 /* Functions */
 #let cvHeader(align: left, hasPhoto: true) = {
-  // Injection
+  // AI Injection
   inject()
 
   let makeHeaderInfo() = {
@@ -210,7 +210,7 @@
       } else if v != "" {
         box({
           // Adds icons
-          personalInfoIcons.at(k) + h(5pt)
+          personalInfoIcons.at(k) + h(2pt)
           // Adds hyperlinks
           if k == "email" {
             link("mailto:" + v)[#v]
@@ -252,9 +252,7 @@
   let makeHeaderPhotoSection() = {
     if profilePhoto != "" {
       box(image(profilePhoto, height: 3.6cm), radius: 50%, clip: true)
-    } else {
-      v(3.6cm)
-    }
+    } 
   }
 
   let makeHeader(leftComp, rightComp, columns, align) = table(
