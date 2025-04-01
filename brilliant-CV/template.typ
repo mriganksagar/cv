@@ -5,7 +5,7 @@
 /* Packages */
 #import "../metadata.typ": *
 #import "./injection.typ": inject
-#import "@preview/fontawesome:0.1.0": *
+#import "@preview/fontawesome:0.5.0": *
 
 /* Language-specific Macros */
 #let nonLatinOverwrite = false
@@ -139,7 +139,7 @@
 }
 
 #let skillTypeStyle(str) = {
-  align(left, text(size: 10pt, weight: "bold", str))
+  align(right, text(size: 10pt, weight: "bold", str))
 }
 
 #let skillInfoStyle(str) = { text(str) }

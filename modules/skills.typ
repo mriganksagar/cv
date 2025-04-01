@@ -4,35 +4,30 @@
 
 #cvSkill(
   type: [Programming languages],
-  info: [Scala #hBar() Java #hBar() JavaScript #hBar() TypeScript #hBar() C++ #hBar() C #hBar() Python]
+  info: [Scala, Java, JavaScript, TypeScript, C++, C, Python]
 )
 
 #cvSkill(
   type: [Frontend],
-  info: [React.js #hBar() Next.js #hBar() React Native #hBar() Redux #hBar() HTML/CSS #hBar() Tailwind]
+  info: [React.js, Next.js, React Native, Redux, HTML/CSS, Tailwind]
 )
 
 #cvSkill(
   type: [Backend],
-  info: [Play #hBar() SpringBoot #hBar() Nest.js #hBar() PostgreSQL #hBar() REST APIs #hBar() GraphQL]
+  info: [Play, SpringBoot, Nest.js, PostgreSQL, REST APIs, GraphQL]
 )
 
 #cvSkill(
   type:[Scala tech-stack],
-  info: [Play #hBar() Cats #hBar() Cats-Effects #hBar() Zio #hBar() Akka actor system #hBar() Akka / reactive streams #hBar() Slick #hBar() Quill]
+  info: [Play, Cats, Cats-Effects, Zio, Akka actor system, Akka / reactive streams, Slick, Quill]
 )
 
 #cvSkill(
   type: [Tools & platforms],
-  info: [Git #hBar() Docker #hBar() Kubernetes #hBar() Linux]
+  info: [Git, Docker, Kubernetes, Linux]
 )
-
-// #cvSkill(
-//   type: [Concepts],
-//   info: [Data Structures & Algorithms #hBar() Functional Programming #hBar() Object-Oriented Design.]
-// )
 
 #cvSkill(
   type: [Languages],
-  info: [English #hBar() Hindi #hBar() German #hBar() Sanskrit]
+  info: [English, Hindi, German, Sanskrit]
 )
