@@ -4,30 +4,25 @@
 
 #cvSkill(
   type: [Programming languages],
-  info: [Scala, Java, JavaScript, TypeScript, C++, C, Python]
+  info: [Scala, Java, Typescript, Javascript, C++, C, Python, Typst]
 )
 
 #cvSkill(
-  type: [Frontend],
-  info: [React.js, Next.js, React Native, Redux, HTML/CSS, Tailwind]
+  type: [Technologies],
+  info: [Springboot, Play, React.js, Next.js, HTML/CSS, PostgreSQL, GraphQL]
 )
 
 #cvSkill(
-  type: [Backend],
-  info: [Play, SpringBoot, Nest.js, PostgreSQL, REST APIs, GraphQL]
-)
-
-#cvSkill(
-  type:[Scala tech-stack],
-  info: [Play, Cats, Cats-Effects, Zio, Akka actor system, Akka / reactive streams, Slick, Quill]
+  type: [Scala ecosystem],
+  info: [Cats, Cats-effects, Play, Akka actor system, Akka /Pekko streams, Slick, Quill]
 )
 
 #cvSkill(
   type: [Tools & platforms],
-  info: [Git, Docker, Kubernetes, Linux]
+  info: [Git, Docker, Podman, Kubernetes, Linux]
 )
 
 #cvSkill(
   type: [Languages],
-  info: [English, Hindi, German, Sanskrit]
+  info: [English, Hindi, German]
 )

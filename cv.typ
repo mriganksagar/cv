@@ -10,7 +10,7 @@
   // #pagebreak()
   #autoImport("awards_achievements")
   #autoImport("volunteering")
-  #autoImport("skills")
+  #block(breakable:false, autoImport("skills"))
 #cvFooter()
 
   // #autoImport("certificates")
